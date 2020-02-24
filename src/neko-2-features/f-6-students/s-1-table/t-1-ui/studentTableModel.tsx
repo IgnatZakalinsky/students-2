@@ -134,6 +134,8 @@ export const studentTableModel: ITableModel[] = [
                     >
                         +1 - за каждое свойство и метод в props<br/>
                         +1 - за каждый map<br/>
+                        +1 - за каждый this.setState()<br/>
+                        +1 - за каждую созданную функцию<br/>
                         -1 - за каждый отсутствующий key<br/>
                     </ProjectModalContainer>
                 </div>
