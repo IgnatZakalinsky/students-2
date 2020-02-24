@@ -79,7 +79,6 @@ export const studentTableModel: ITableModel[] = [
     },
     {
         title: (i: number) => {
-
             return (
                 <div key={i} style={{width: '80px', padding: '11px', flexShrink: 0}}>
                     <ProjectModalContainer
@@ -101,6 +100,41 @@ export const studentTableModel: ITableModel[] = [
                         -1 - за каждый неровный тэг<br/>
                         -1 - за каждые 2 пустые строки подряд<br/>
                         -1 - за каждый залитый debugger<br/>
+                    </ProjectModalContainer>
+                </div>
+            )
+        },
+        render: (d: IShopTable, i: number) => {
+            let allPoints: number = 0;
+
+            return (
+                <div
+                    key={i}
+                    style={{
+                        width: '80px',
+                        border: '1px solid black',
+                        margin: '5px',
+                        padding: '5px',
+                        flexShrink: 0,
+                        overflow: 'hidden',
+                    }}
+                >
+                    {allPoints}
+                </div>
+            )
+        }
+    },
+    {
+        title: (i: number) => {
+            return (
+                <div key={i} style={{width: '80px', padding: '11px', flexShrink: 0}}>
+                    <ProjectModalContainer
+                        style={{width: '100%', height: '100%'}}
+                        name={<div>баллы<br/>понед.</div>}
+                    >
+                        +1 - за каждое свойство и метод в props<br/>
+                        +1 - за каждый map<br/>
+                        -1 - за каждый отсутствующий key<br/>
                     </ProjectModalContainer>
                 </div>
             )
