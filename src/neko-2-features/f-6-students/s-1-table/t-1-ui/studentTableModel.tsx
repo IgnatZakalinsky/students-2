@@ -159,6 +159,7 @@ export const studentTableModel: ITableModel[] = [
                         style={{width: '100%', height: '100%'}}
                         name={<div>баллы<br/>понед.</div>}
                     >
+                        +50 - адаптивность под iPhone5<br/>
                         +1 - за каждое свойство и метод в props<br/>
                         +1 - за каждый map<br/>
                         +1 - за каждый this.setState()<br/>
