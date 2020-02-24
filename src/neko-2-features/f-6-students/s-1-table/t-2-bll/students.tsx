@@ -8,6 +8,7 @@ export const studentsItem: IShopTable[] = [
         price: 1000,
 
         name: "Ignat Zakalinsky",
+        gh: 'https://github.com/IgnatZakalinsky',
         ghPagesLink: 'http://IgnatZakalinsky.github.io/students',
 
 

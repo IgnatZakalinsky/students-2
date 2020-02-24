@@ -52,6 +52,33 @@ export const studentTableModel: ITableModel[] = [
     },
     {
         title: (i: number) => (
+            <div key={i} style={{width: '150px', padding: '11px', flexShrink: 0}}>
+                GitHub link
+            </div>
+        ),
+        render: (d: IShopTable, i: number) => {
+            return (
+                <div
+                    key={i}
+                    style={{
+                        width: '150px',
+                        border: '1px solid black',
+                        margin: '5px',
+                        padding: '5px',
+                        flexShrink: 0,
+                        overflow: 'hidden',
+                    }}
+                >
+                    {d.gh
+                        ? <a href={d.gh} target={'blanck'}>{d.gh}</a>
+                        : 'нет ссылки'
+                    }
+                </div>
+            )
+        }
+    },
+    {
+        title: (i: number) => (
             <div key={i} style={{width: '80px', padding: '11px', flexShrink: 0}}>
                 общее<br/>количество<br/>баллов
             </div>
@@ -136,6 +163,7 @@ export const studentTableModel: ITableModel[] = [
                         +1 - за каждый map<br/>
                         +1 - за каждый this.setState()<br/>
                         +1 - за каждую созданную функцию<br/>
+                        +1 - за каждый disable кнопки<br/>
                         -1 - за каждый отсутствующий key<br/>
                     </ProjectModalContainer>
                 </div>

@@ -4,6 +4,7 @@ export interface IShopTable {
     price: number;
 
     name?: string;
+    gh?: string;
     ghPagesLink?: string;
     projectPoints?: number;
 }
