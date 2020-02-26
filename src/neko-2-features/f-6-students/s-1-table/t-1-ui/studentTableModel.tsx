@@ -126,7 +126,7 @@ export const studentTableModel: ITableModel[] = [
                         -1 - за каждый не module.css<br/>
                         -1 - за каждый неровный тэг<br/>
                         -1 - за каждые 2 пустые строки подряд<br/>
-                        -1 - за каждый залитый debugger<br/>
+                        -10 - за каждый залитый debugger<br/>
                     </ProjectModalContainer>
                 </div>
             )
@@ -159,13 +159,13 @@ export const studentTableModel: ITableModel[] = [
                         style={{width: '100%', height: '100%'}}
                         name={<div>баллы<br/>понед.</div>}
                     >
-                        +50 - адаптивность под iPhone5<br/>
+                        +50 - адаптивность под iPhone 5<br/>
                         +1 - за каждое свойство и метод в props<br/>
                         +1 - за каждый map<br/>
                         +1 - за каждый this.setState()<br/>
                         +1 - за каждую созданную функцию<br/>
                         +1 - за каждый disable кнопки<br/>
-                        -1 - за каждый отсутствующий key<br/>
+                        -10 - за каждый отсутствующий key<br/>
                     </ProjectModalContainer>
                 </div>
             )
