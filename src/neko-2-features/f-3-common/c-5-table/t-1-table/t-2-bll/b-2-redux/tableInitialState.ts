@@ -7,6 +7,7 @@ export interface IShopTable {
     gh?: string;
     ghPagesLink?: string;
     projectPoints?: number;
+    mondayPoints?: number;
 }
 
 export interface IShopSettings {

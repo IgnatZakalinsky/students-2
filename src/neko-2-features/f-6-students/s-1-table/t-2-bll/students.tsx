@@ -87,6 +87,10 @@ export const studentsItem: IShopTable[] = [
         price: 100,
 
         name: 'Карташов Илья Александрович',
+        gh: 'https://github.com/IlyaKartashou1983/my-first-presentation',
+        ghPagesLink: 'https://ilyakartashou1983.github.io/my-first-presentation/',
+        projectPoints: -21,
+        mondayPoints: -8,
 
     },
     {

@@ -86,6 +86,9 @@ export const studentTableModel: ITableModel[] = [
         render: (d: IShopTable, i: number) => {
             let allPoints: number = 0;
             if (d.ghPagesLink) allPoints++;
+            if (d.gh) allPoints++;
+            if (d.projectPoints) allPoints += d.projectPoints;
+            if (d.mondayPoints) allPoints += d.mondayPoints;
 
             return (
                 <div
@@ -133,6 +136,7 @@ export const studentTableModel: ITableModel[] = [
         },
         render: (d: IShopTable, i: number) => {
             let allPoints: number = 0;
+            if (d.projectPoints) allPoints += d.projectPoints;
 
             return (
                 <div
@@ -172,6 +176,7 @@ export const studentTableModel: ITableModel[] = [
         },
         render: (d: IShopTable, i: number) => {
             let allPoints: number = 0;
+            if (d.mondayPoints) allPoints += d.mondayPoints;
 
             return (
                 <div
