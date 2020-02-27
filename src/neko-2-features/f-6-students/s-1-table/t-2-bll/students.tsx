@@ -71,6 +71,10 @@ export const studentsItem: IShopTable[] = [
         price: 100,
 
         name: 'Гавриленко Антон Андреевич',
+        gh: 'https://github.com/gavrilenkoanton/my_simple_project_with_TS',
+        ghPagesLink: 'https://gavrilenkoanton.github.io/my_simple_project_with_TS/',
+        projectPoints: 128,
+        mondayPoints: 54
 
     },
     {
