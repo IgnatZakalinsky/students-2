@@ -74,7 +74,7 @@ export const studentsItem: IShopTable[] = [
         gh: 'https://github.com/gavrilenkoanton/my_simple_project_with_TS',
         ghPagesLink: 'https://gavrilenkoanton.github.io/my_simple_project_with_TS/',
         projectPoints: 128,
-        mondayPoints: 54
+        mondayPoints: 65
 
     },
     {
@@ -93,7 +93,7 @@ export const studentsItem: IShopTable[] = [
         name: 'Карташов Илья Александрович',
         gh: 'https://github.com/IlyaKartashou1983/my-first-presentation',
         ghPagesLink: 'https://ilyakartashou1983.github.io/my-first-presentation/',
-        projectPoints: 12,
+        projectPoints: 23,
         mondayPoints: 62,
 
     },
