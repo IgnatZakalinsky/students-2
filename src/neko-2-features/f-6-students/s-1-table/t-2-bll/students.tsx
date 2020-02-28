@@ -46,7 +46,10 @@ export const studentsItem: IShopTable[] = [
         price: 100,
 
         name: 'Васильев Артем Александрович',
-
+        ghPagesLink: 'https://zionjke.github.io/finalHomework/',
+        gh: 'https://github.com/zionjke/finalHomework',
+        projectPoints: 34,
+        mondayPoints: 73,
 
     },
     {
@@ -183,6 +186,10 @@ export const studentsItem: IShopTable[] = [
         price: 100,
 
         name: 'ATABALOV Murad',
+        ghPagesLink: 'http://santyaga.pro/SchoolWork/',
+        gh: 'https://github.com/SantYaga33/SchoolWork',
+        projectPoints: 47,
+        mondayPoints: 79,
 
     },
     {
