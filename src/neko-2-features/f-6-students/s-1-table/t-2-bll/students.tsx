@@ -19,7 +19,10 @@ export const studentsItem: IShopTable[] = [
         price: 100,
 
         name: 'Арапов Евгений Владимирович',
-
+        ghPagesLink: 'https://zdraviismisl.github.io/task-4/',
+        gh: 'https://github.com/ZdraviiSmisl/task-4',
+        projectPoints: -38,
+        mondayPoints: 61,
 
     },
     {
