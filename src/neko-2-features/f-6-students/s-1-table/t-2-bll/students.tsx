@@ -130,6 +130,10 @@ export const studentsItem: IShopTable[] = [
         price: 100,
 
         name: 'Толкачёв Иван Борисович',
+        gh: 'https://github.com/vantrey/ignat-tasks',
+        ghPagesLink: 'https://vantrey.github.io/ignat-tasks',
+        projectPoints: 69,
+        mondayPoints: 77,
 
     },
     {
