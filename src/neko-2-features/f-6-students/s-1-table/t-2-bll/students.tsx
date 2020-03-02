@@ -40,7 +40,10 @@ export const studentsItem: IShopTable[] = [
         price: 100,
 
         name: 'Бирюков Савелий-Георгий Юрьевич',
-
+        ghPagesLink: 'https://saveliy-georgiy.github.io/homework4/',
+        gh: 'https://github.com/Saveliy-Georgiy/homework4/',
+        projectPoints: 30,
+        mondayPoints: 73,
 
     },
     {
