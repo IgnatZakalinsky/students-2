@@ -31,6 +31,10 @@ export const studentsItem: IShopTable[] = [
         price: 100,
 
         name: 'Белявская Александра Сергеевна',
+        gh: 'https://github.com/Aliaksandra-Sunny/Greeting-Friends',
+        ghPagesLink: 'https://aliaksandra-sunny.github.io/Greeting-Friends/',
+        projectPoints: 32,
+        mondayPoints: 13,
 
 
     },
