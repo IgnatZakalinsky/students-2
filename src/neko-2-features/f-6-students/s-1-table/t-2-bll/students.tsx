@@ -21,7 +21,7 @@ export const studentsItem: IShopTable[] = [
         name: 'Арапов Евгений Владимирович',
         ghPagesLink: 'https://zdraviismisl.github.io/task-4/',
         gh: 'https://github.com/ZdraviiSmisl/task-4',
-        projectPoints: -38,
+        projectPoints: 26,
         mondayPoints: 61,
 
     },
@@ -228,6 +228,10 @@ export const studentsItem: IShopTable[] = [
         price: 100,
 
         name: 'Тарасюк Дмитрий Валентинович',
+        ghPagesLink: 'https://dmiyri.github.io/Learn/',
+        gh: 'https://github.com/Dmiyri/Learn/',
+        projectPoints: 22,
+        mondayPoints: 9,
 
     },
 
