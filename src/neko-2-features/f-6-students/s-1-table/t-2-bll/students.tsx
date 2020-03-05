@@ -152,6 +152,10 @@ export const studentsItem: IShopTable[] = [
         price: 100,
 
         name: 'Федорин Вадим Николаевич',
+        gh: 'https://github.com/VadzimFiadoryn',
+        ghPagesLink: 'https://vadzimfiadoryn.github.io/task4/',
+        projectPoints: 19,
+        mondayPoints: 60,
 
     },
     {
